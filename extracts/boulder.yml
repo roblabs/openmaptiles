@@ -1,0 +1,9 @@
+version: "2"
+services:
+  generate-vectortiles:
+    environment:
+      BBOX: "-105.382233, 39.936066, -105.147400, 40.095933"
+      OSM_MAX_TIMESTAMP : "2017-10-09T20:40:00Z"
+      OSM_AREA_NAME: "boulder"
+      MIN_ZOOM: "0"
+      MAX_ZOOM: "14"
